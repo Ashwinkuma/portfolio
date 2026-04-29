@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+
+# Keep repository metadata and static deploy files
+!.gitignore
+!README.md
+!docs/
+!docs/**
+
+# Local project files that should stay off GitHub
+node_modules/
+dist/
